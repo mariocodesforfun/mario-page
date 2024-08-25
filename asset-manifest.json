@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.b194251b.css",
-    "main.js": "/home/static/js/main.f851d287.js",
-    "static/js/453.aac68abc.chunk.js": "/home/static/js/453.aac68abc.chunk.js",
-    "static/media/daniel-sessler-aHQtYTNih_Q-unsplash.jpg": "/home/static/media/daniel-sessler-aHQtYTNih_Q-unsplash.a5e02b54b780f913b7ab.jpg",
-    "index.html": "/home/index.html",
-    "main.b194251b.css.map": "/home/static/css/main.b194251b.css.map",
-    "main.f851d287.js.map": "/home/static/js/main.f851d287.js.map",
-    "453.aac68abc.chunk.js.map": "/home/static/js/453.aac68abc.chunk.js.map"
+    "main.css": "/mario-page/static/css/main.0f81e96e.css",
+    "main.js": "/mario-page/static/js/main.32642349.js",
+    "static/js/453.aac68abc.chunk.js": "/mario-page/static/js/453.aac68abc.chunk.js",
+    "static/media/daniel-sessler-aHQtYTNih_Q-unsplash.jpg": "/mario-page/static/media/daniel-sessler-aHQtYTNih_Q-unsplash.a5e02b54b780f913b7ab.jpg",
+    "index.html": "/mario-page/index.html",
+    "main.0f81e96e.css.map": "/mario-page/static/css/main.0f81e96e.css.map",
+    "main.32642349.js.map": "/mario-page/static/js/main.32642349.js.map",
+    "453.aac68abc.chunk.js.map": "/mario-page/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b194251b.css",
-    "static/js/main.f851d287.js"
+    "static/css/main.0f81e96e.css",
+    "static/js/main.32642349.js"
   ]
 }
