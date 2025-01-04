@@ -13,6 +13,8 @@ function Resume() {
         <div className="school-info">
             <h3>Baruch College</h3>
             <p>Computer Science | Expected Graduation: Summer 2026</p>
+            <p>Dean's List | 2024-Present</p>
+            <p>GPA: 3.78</p>
           </div>
         </div>
 
