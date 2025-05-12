@@ -13,7 +13,7 @@ function Resume() {
           <img className="school-logo" src={images.betterment_logo} alt="Betterment Logo" />
           <div className="school-info">
             <h3>Betterment</h3>
-            <p>Software Engineer Intern | June 2024 - August 2024</p>
+            <p>Software Engineer Intern | June 2025 - Present</p>
           </div>
         </div>
 
