@@ -44,19 +44,17 @@ function Home() {
         <div className="about-text">
           <h2>Hi there!</h2>
           <p>
-          My name is Mario Gegprifti. I am currently pursuing a Bachelor of Science in Computer Science
-          at Baruch College. I work as a Software Engineer II at Rexera,
-          where I focus on building new features and enhancing platform efficiency. Currently I am working on a
-          very excitin AI project.
-          I am passionate about finance, programming and AI, and leveraging technology to solve complex problems.
+           My name is Mario Gegprifti, a Computer Science student at Baruch College. 
+           This summer, Im interning at Betterment and working as a founding engineer on an AI project called Style AI.
+           I'm also enrolled in CodePath's Technical Interview Prep course. 
+           I'm passionate about finance, programming, AI, and using technology to tackle complex problems.
           </p>
-
           <p>Currently, I am:</p>
           <p>
           <ul>
-            <li>Learning DSA the proper way</li>
-            <li>Working on cool AI stuff at Rexera</li>
-            <li>Aprendiendo Español</li>
+            <li>Interning at Betterment as a Software Engineer</li>
+            <li>Working as a founding engineer on an AI project called Style AI</li>
+            <li>Taking the Technical Interview Prep course with CodePath</li>
           </ul>
           </p>
         </div>
