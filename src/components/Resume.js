@@ -17,13 +17,13 @@ function Resume() {
           </div>
         </div>
 
-        <div className="resume-entry">
+        {/* <div className="resume-entry">
           <img className="school-logo" src={images.style_ai_logo} alt="Style AI Logo" />
           <div className="school-info">
             <h3>Style AI</h3>
             <p>Founding Engineer | May 2024 - Present</p>
           </div>
-        </div>
+        </div> */}
       <div className="resume-entry">
             <img className="school-logo" src={images.rexera_logo} alt="Rexera Logo" />
             <div className="school-info">

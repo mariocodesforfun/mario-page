@@ -45,16 +45,15 @@ function Home() {
           <h2>Hi there!</h2>
           <p>
            My name is Mario Gegprifti, a Computer Science student at Baruch College. 
-           This summer, Im interning at Betterment and working as a founding engineer on an AI project called Style AI.
-           I'm also enrolled in CodePath's Technical Interview Prep course. 
+           This summer, Im interning at Betterment as a Software Engineer in the Advisor Solutions team.
            I'm passionate about finance, programming, AI, and using technology to tackle complex problems.
           </p>
           <p>Currently, I am:</p>
           <p>
           <ul>
             <li>Interning at Betterment as a Software Engineer</li>
-            <li>Working as a founding engineer on an AI project called Style AI</li>
-            <li>Taking the Technical Interview Prep course with CodePath</li>
+            <li>Exploring the world of AI</li>
+            <li>Learning about software architecture and design patterns</li>
           </ul>
           </p>
         </div>
