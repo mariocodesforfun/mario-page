@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://mariocodesforfun.github.io/mario-page",
   "dependencies": {
+    "@fontsource/roboto": "^5.0.19",
     "@fontsource/roboto-mono": "^5.0.19",
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",

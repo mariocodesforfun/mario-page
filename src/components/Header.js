@@ -20,8 +20,10 @@ function Header() {
           <span>&#9776;</span>
         </div>
         <ul className={`header-nav ${menuOpen ? 'active' : ''}`}>
-          <li><Link to="/home" onClick={closeMenu}>01 : Home</Link></li>
+          <li><Link to="/" onClick={closeMenu}>01 : Home</Link></li>
+          <li className="nav-separator">|</li>
           <li><Link to="/resume" onClick={closeMenu}>02 : Resume</Link></li>
+          <li className="nav-separator">|</li>
           <li><Link to="/blog" onClick={closeMenu}>03 : Blog</Link></li>
         </ul>
       </div>

@@ -1,182 +1,162 @@
-/* Import global styles to maintain consistency */
-@import url('./global.css');
-
-/* Resume section */
+/* Resume section - matching Kylie Ying's style */
 .resume {
-  padding: 50px 20px;
-  max-width: 1200px; /* Increase max-width to accommodate layout */
   margin: 0 auto;
+  padding: 120px 20px 0 20px;
+  max-width: 100%;
 }
 
-/* Container for titles to ensure alignment */
-.title-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Align items to the start (left) */
-  justify-content: center; /* Center vertically */
-  min-height: 150px; /* Adjust based on your layout needs */
+.resume .page-title {
+  font-family: 'Roboto Mono', monospace !important;
+  font-weight: 400 !important;
+  color: #000 !important;
+  padding: 0 !important;
+  font-size: 42px !important;
+  margin: 0 0 0 210px !important;
+  text-align: left !important;
 }
 
-.page-title,
-.section-title,
-.experience-title { /* Apply to experience title */
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 300;
-  color: #34495e;
-  margin: 0; /* Remove top margin */
-  padding: 0; /* Remove padding */
+.resume .section-title {
+  font-family: 'Roboto Mono', monospace !important;
+  font-weight: 400 !important;
+  font-size: 30px !important;
+  color: #000 !important;
+  padding: 0 !important;
+  margin: 0 0 40px 210px !important;
+  text-align: left !important;
 }
 
-.page-title {
-  font-size: 42px;
-  padding-left: 45px;
+/* Resume section wrapper */
+.resume-section {
+  margin-bottom: 60px;
 }
 
-.section-title {
-  font-size: 30px;
-  font-weight: 150;
-  padding-left: 50px;
+/* Spacing for Education section - first section after title */
+.education-section {
+  margin-top: 160px;
 }
 
-.experience-title { /* Styling for the experience title */
-  font-size: 36px; /* Adjust the size if necessary */
-  padding-left: 45px; /* Align with other titles */
-  margin-top: 100px; /* Adjust top margin if needed */
+/* Spacing for Experience section */
+.experience-section {
+  margin-top: 40px;
 }
 
+/* Resume entry row - matching Kylie Ying's resume-row */
 .resume-entry {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  margin-bottom: 40px; /* Reduced space between entries */
+  padding: 60px 0;
+  margin-bottom: 0;
+  margin-left: 210px;
+}
+
+/* Logo container - matching Kylie Ying's resume-logo */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  min-width: 200px;
+  margin-right: 120px;
+  flex-shrink: 0;
 }
 
 .school-logo {
-  width: 150px; /* Increase the size of the logo */
-  margin-right: 200px; /* Increase space between logo and text */
-  margin-top: 50px;
-  margin-left: 150px;
+  max-height: 120px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
 .school-info {
-  max-width: 800px;
-  margin-top: 50px;
+  flex: 1;
+  padding: 0;
 }
 
 .school-info h3 {
   font-family: 'Roboto Mono', monospace;
   font-size: 20px;
-  font-weight: 700;
-  margin: 0 0 15px; /* Slightly increase the space below the school name */
+  font-weight: 400;
+  color: #000;
+  margin: 0 0 15px 0;
 }
 
 .school-info p {
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
   font-weight: 300;
-  margin: 0 0 10px; /* Increase space between text lines */
+  color: #000;
+  margin: 0 0 10px 0;
+  line-height: 1.6;
 }
 
-.experience-section h2 {
-  margin-top: 100px; /* Adjust top margin */
-}
-
-.page-title {
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 300;
-  color: #34495e;
-  font-size: 42px;
-  margin-top: 150px; 
-  margin-bottom: 135px;
-  /* Set top margin to 150 pixels */
-}
-
-/* Responsive adjustments specific to the resume page */
-@media (max-width: 768px) {
-  .resume {
-    padding: 20px;
-    max-width: 100%; /* Make sure the resume section uses full width */
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .resume .page-title {
+    margin-left: 40px !important;
+    font-size: 36px !important;
   }
 
-  .page-title,
-  .section-title,
-  .experience-title {
-    margin-left: 20px;
-    text-align: left; /* Left-align titles */
-    padding-left: 0; /* Remove left padding */
-  }
-
-  .section-title,
-  .experience-title {
-    margin-top: 80px; /* Adjust top margin for consistency */
-  }
-
-  /* Add margin between the title and the first entry */
-  .section-title + .resume-entry,
-  .experience-title + .resume-entry {
-    margin-top: 40px; /* Space between title and first entry */
+  .resume .section-title {
+    margin-left: 40px !important;
+    font-size: 26px !important;
   }
 
   .resume-entry {
-    display: flex;
-    flex-direction: column; /* Stack the logo and text vertically */
-    align-items: center; /* Center-align the content */
-    margin-bottom: 20px; /* Space between entries */
-    text-align: center; /* Center the content within the entry */
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
-  .school-logo {
-    width: 150px;
-    margin: 0 auto 0 auto; /* Center the logo without bottom margin */
+  .logo-container {
+    margin-right: 0;
+    margin-bottom: 25px;
   }
 
   .school-info {
-    margin-top: 20px; /* Add space between logo and text */
-    margin-left: 0; /* Remove left margin */
-    text-align: center; /* Center-align school information */
+    text-align: center;
+  }
+
+  .education-section {
+    margin-top: 100px;
   }
 }
 
-@media (max-width: 480px) {
-  .resume {
-    padding: 15px;
-    max-width: 100%; /* Make sure the resume section uses full width */
+@media (max-width: 767px) {
+  .resume .page-title {
+    font-size: 32px !important;
+    margin-left: 20px !important;
   }
 
-  .page-title,
-  .section-title,
-  .experience-title {
-    margin-left: 10px;
-    text-align: left; /* Left-align titles */
-    padding-left: 0; /* Remove left padding */
-  }
-
-  .section-title,
-  .experience-title {
-    margin-top: 60px; /* Adjust top margin */
-  }
-
-  /* Add margin between the title and the first entry */
-  .section-title + .resume-entry,
-  .experience-title + .resume-entry {
-    margin-top: 30px; /* Space between title and first entry */
+  .resume .section-title {
+    font-size: 24px !important;
+    margin-left: 20px !important;
   }
 
   .resume-entry {
-    display: flex;
-    flex-direction: column; /* Stack the logo and text vertically */
-    align-items: center; /* Center-align the content */
-    margin-bottom: 15px; /* Space between entries */
-    text-align: center; /* Center the content within the entry */
+    padding: 30px 20px;
+  }
+
+  .logo-container {
+    width: 140px;
+    min-width: 140px;
   }
 
   .school-logo {
-    width: 120px; /* Further reduce the size of the logo */
-    margin: 0 auto 0 auto; /* Center the logo without bottom margin */
+    max-height: 100px;
   }
 
-  .school-info {
-    margin-top: 15px; /* Add space between logo and text */
-    margin-left: 0; /* Remove left margin */
-    text-align: center; /* Center-align school information */
+  .school-info h3 {
+    font-size: 18px;
+  }
+
+  .school-info p {
+    font-size: 13px;
+  }
+
+  .education-section {
+    margin-top: 80px;
   }
 }
