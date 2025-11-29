@@ -104,7 +104,8 @@
   }
 
   .resume-entry {
-    padding: 40px;
+    padding: 40px 20px;
+    margin-left: 40px;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -125,6 +126,10 @@
 }
 
 @media (max-width: 767px) {
+  .resume {
+    padding: 100px 0 0 0;
+  }
+
   .resume .page-title {
     font-size: 32px !important;
     margin-left: 20px !important;
@@ -137,6 +142,10 @@
 
   .resume-entry {
     padding: 30px 20px;
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .logo-container {
@@ -146,6 +155,10 @@
 
   .school-logo {
     max-height: 100px;
+  }
+
+  .school-info {
+    text-align: center;
   }
 
   .school-info h3 {
