@@ -50,9 +50,8 @@ function Home() {
           </p>
           <p>Currently, I am:</p>
           <ul>
-            <li>Studying computer architecture and probability</li>
-            <li>Working as a founding member of an early-stage AI startup, building a document intelligence platform. Handling full-stack development, AI architecture, DevOps, and product management.</li>
-            <li>Building <a href="https://apps.apple.com/us/app/acadu-ai-quiz-flashcards/id6472749552" target="_blank" rel="noopener noreferrer">Acadu</a> and <a href="https://apps.apple.com/us/app/wisetrack-track-your-money/id6754208020" target="_blank" rel="noopener noreferrer">WiseTrack</a></li>
+            <li>Learning about operating systems and machine learning</li>
+            <li>Working as a founding engineer at <a href="https://www.deepread.tech/" target="_blank" rel="noopener noreferrer">DeepRead</a>, building a document intelligence platform.</li>
           </ul>
         </div>
         <div className="about-links">
