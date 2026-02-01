@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mario-page/static/css/main.dd4d4bdd.css",
-    "main.js": "/mario-page/static/js/main.29a9d560.js",
+    "main.js": "/mario-page/static/js/main.eed5f4cd.js",
     "static/js/453.aac68abc.chunk.js": "/mario-page/static/js/453.aac68abc.chunk.js",
     "static/media/nyc_cover_2.jpg": "/mario-page/static/media/nyc_cover_2.bc259d579be3657ee79f.jpg",
     "static/media/style_ai_logo.png": "/mario-page/static/media/style_ai_logo.b1d07e037fc8c4581f73.png",
@@ -41,11 +41,11 @@
     "static/media/roboto-greek-ext-900-normal.woff": "/mario-page/static/media/roboto-greek-ext-900-normal.b9b8c68f5b8e4097653e.woff",
     "index.html": "/mario-page/index.html",
     "main.dd4d4bdd.css.map": "/mario-page/static/css/main.dd4d4bdd.css.map",
-    "main.29a9d560.js.map": "/mario-page/static/js/main.29a9d560.js.map",
+    "main.eed5f4cd.js.map": "/mario-page/static/js/main.eed5f4cd.js.map",
     "453.aac68abc.chunk.js.map": "/mario-page/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd4d4bdd.css",
-    "static/js/main.29a9d560.js"
+    "static/js/main.eed5f4cd.js"
   ]
 }
