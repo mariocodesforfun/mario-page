@@ -1,0 +1,112 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0f0f0f;
+  --fg: #e8e8e8;
+  --muted: #888;
+  --accent: #c8a96e;
+  --nav-height: 56px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Georgia', serif;
+  min-height: 100vh;
+}
+
+/* ── Navigation ── */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--nav-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  border-bottom: 1px solid #1e1e1e;
+  background: var(--bg);
+  z-index: 100;
+}
+
+.site-name {
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  transition: color 0.2s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--fg);
+}
+
+/* ── Sections ── */
+main {
+  padding-top: var(--nav-height);
+}
+
+.page {
+  display: none;
+  min-height: calc(100vh - var(--nav-height));
+  padding: 4rem 2rem;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.page.active {
+  display: block;
+}
+
+.page h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+  color: var(--accent);
+}
+
+.page p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+/* ── Notes ── */
+.notes-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.notes-list li {
+  position: relative;
+  padding-left: 1.25rem;
+  line-height: 1.7;
+  color: var(--fg);
+}
+
+.notes-list li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
