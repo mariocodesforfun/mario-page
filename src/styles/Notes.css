@@ -1,0 +1,79 @@
+.notes {
+  padding: 120px 20px 40px 20px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.notes .page-title {
+  font-family: 'Roboto Mono', monospace !important;
+  font-weight: 400 !important;
+  font-size: 42px !important;
+  color: #000 !important;
+  margin: 0 0 0 210px !important;
+  padding: 0 !important;
+  text-align: left !important;
+}
+
+.notes-content {
+  font-family: 'Roboto Mono', monospace;
+  margin-left: 210px;
+  margin-right: 210px;
+  margin-top: 80px;
+}
+
+.notes-intro {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.notes-list {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.note-item {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .notes {
+    padding: 100px 15px 40px 15px;
+  }
+
+  .notes .page-title {
+    font-size: 36px !important;
+    margin-left: 40px !important;
+  }
+
+  .notes-content {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .notes {
+    padding: 80px 20px 20px 20px;
+  }
+
+  .notes .page-title {
+    font-size: 32px !important;
+    margin-left: 20px !important;
+  }
+
+  .notes-content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .note-item {
+    font-size: 14px;
+  }
+}

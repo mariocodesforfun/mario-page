@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Blog.css';
 
 function Blog() {
@@ -21,12 +22,18 @@ function Blog() {
       <div className="blog-content">
         <h2 className="section-title">Latest Posts</h2>
         <div className="posts-list">
+          <div className="post-item">
+            <Link to="/notes" className="post-title">
+              Quick Notes
+            </Link>
+            <span className="post-date">Ongoing</span>
+          </div>
           {posts.map((post, index) => (
             <div key={index} className="post-item">
-              <a 
-                href={post.url} 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href={post.url}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="post-title"
               >
                 {post.title}
