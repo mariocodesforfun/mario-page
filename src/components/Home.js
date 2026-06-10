@@ -46,12 +46,12 @@ function Home() {
         <div className="about-text">
           <h2>Hi there!</h2>
           <p>
-           My name is Mario Gegprifti, a Computer Science student at Baruch College.
+           My name is Mario Gegprifti, a software engineer at Betterment with a CS degree from Baruch College.
           </p>
           <p>Currently, I am:</p>
           <ul>
-            <li>Learning about operating systems and machine learning</li>
-            <li>Working as a founding engineer at <a href="https://www.deepread.tech/" target="_blank" rel="noopener noreferrer">DeepRead</a>, building a document intelligence platform.</li>
+            <li>Working as a software engineer at Betterment</li>
+            <li>Experimenting with AI in different areas</li>
           </ul>
         </div>
         <div className="about-links">
