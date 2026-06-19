@@ -6,6 +6,7 @@ function Notes() {
     "Any complex concept can be simplified. Once simplified, it can cause curiosity. Once you're curious, complex is not complex anymore.",
     "Humans were designed to create. This is why we get depressed when all we do is consume.",
     "Every action you take is a vote for the type of person you wish to become. - James Clear, Atomic Habits",
+    "The things we do do things to us.",
   ];
 
   return (
