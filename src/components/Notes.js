@@ -7,6 +7,12 @@ function Notes() {
     "Humans were designed to create. This is why we get depressed when all we do is consume.",
     "Every action you take is a vote for the type of person you wish to become. - James Clear, Atomic Habits",
     "The things we do, do things to us.",
+    <>
+      Emotional Emotional Design (by Don Norman):{' '}
+      <a href="https://periodic-map-79a.notion.site/Emotional-Design-3ea1f363454b8042a8cfc3f8c27ab66a">
+        some notes
+      </a>
+    </>,
   ];
 
   return (
